@@ -1,0 +1,12 @@
+E:\personal\FinLedger\FinLedger.Domain\bin\Debug\net10.0\FinLedger.Domain.deps.json
+E:\personal\FinLedger\FinLedger.Domain\bin\Debug\net10.0\FinLedger.Domain.dll
+E:\personal\FinLedger\FinLedger.Domain\bin\Debug\net10.0\FinLedger.Domain.pdb
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\FinLedger.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\FinLedger.Domain.AssemblyInfoInputs.cache
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\FinLedger.Domain.AssemblyInfo.cs
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\FinLedger.Domain.csproj.CoreCompileInputs.cache
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\FinLedger.Domain.sourcelink.json
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\FinLedger.Domain.dll
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\refint\FinLedger.Domain.dll
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\FinLedger.Domain.pdb
+E:\personal\FinLedger\FinLedger.Domain\obj\Debug\net10.0\ref\FinLedger.Domain.dll
