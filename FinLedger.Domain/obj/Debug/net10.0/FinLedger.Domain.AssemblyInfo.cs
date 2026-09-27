@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinLedger.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08e0ad2ecda785152987da073bca2cc9012e59b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23b151c536b751481d4e4afc4168a0c1718a9494")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinLedger.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinLedger.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
