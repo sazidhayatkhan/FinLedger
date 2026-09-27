@@ -1,4 +1,7 @@
 using FinLedger.Infrastructure.Persistence;
+using FinLedger.Application.Interfaces;
+using FinLedger.Application.Services;
+using FinLedger.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -12,6 +15,9 @@ builder.Services.AddDbContext<FinLedgerDbContext>(options =>
     options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection")
     ));
+
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<AccountService>();
 
 var app = builder.Build();
 
