@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinLedger.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23b151c536b751481d4e4afc4168a0c1718a9494")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae0005d0ca4c864fb69b9e348f0cfa3604084749")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinLedger.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinLedger.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
