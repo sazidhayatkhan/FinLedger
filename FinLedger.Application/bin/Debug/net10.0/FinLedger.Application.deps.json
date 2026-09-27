@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "FinLedger.Application/1.0.0": {
+        "dependencies": {
+          "FinLedger.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FinLedger.Application.dll": {}
+        }
+      },
+      "FinLedger.Domain/1.0.0": {
+        "runtime": {
+          "FinLedger.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinLedger.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinLedger.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
