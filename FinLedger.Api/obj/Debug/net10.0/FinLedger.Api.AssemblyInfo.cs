@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("4a43518f-9265-4923-9967-2df031344914")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinLedger.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a5644aa6d01fc1dd967a459d56ed63ccc1c81b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d95cc8ba6f8fd6295384f8e48e088c20dabe6ad7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinLedger.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinLedger.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
