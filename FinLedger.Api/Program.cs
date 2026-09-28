@@ -22,6 +22,9 @@ builder.Services.AddScoped<AccountService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<UserService>();
 
+builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+builder.Services.AddScoped<TransactionService>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
