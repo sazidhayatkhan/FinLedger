@@ -21,5 +21,10 @@ public class TransactionConfiguration
             .IsRequired();
 
         builder.HasIndex(x => x.AccountId);
+
+        builder.HasOne<Account>()
+            .WithMany()
+            .HasForeignKey(x => x.AccountId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

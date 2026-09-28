@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="FinLedger.Api/FinLedger.Api.csproj" />
   <Project Path="FinLedger.Application/FinLedger.Application.csproj" />
+  <Project Path="FinLedger.Domain.Tests/FinLedger.Domain.Tests.csproj" />
   <Project Path="FinLedger.Domain/FinLedger.Domain.csproj" />
   <Project Path="FinLedger.Infrastructure/FinLedger.Infrastructure.csproj" />
 </Solution>
