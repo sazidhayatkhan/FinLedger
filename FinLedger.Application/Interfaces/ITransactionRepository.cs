@@ -6,4 +6,6 @@ public interface ITransactionRepository
 {
     Task AddAsync(Transaction transaction);
     Task SaveChangesAsync();
+
+    Task<List<Transaction>> GetByAccountIdAsync(Guid accountId);
 }

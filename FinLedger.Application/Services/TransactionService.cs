@@ -61,4 +61,10 @@ public class TransactionService
 
         return transaction.Id;
     }
+
+    public async Task<List<Transaction>> GetByAccountIdAsync(Guid accountId)
+    {
+        return await _transactionRepository
+            .GetByAccountIdAsync(accountId);
+    }
 }

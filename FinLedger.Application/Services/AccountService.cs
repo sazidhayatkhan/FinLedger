@@ -15,6 +15,12 @@ public class AccountService
 
     public async Task<Guid> CreateAsync(CreateAccountDto dto)
     {
+        if (dto.UserId == Guid.Empty)
+            throw new ArgumentException("UserId is required.");
+
+        if (string.IsNullOrWhiteSpace(dto.Name))
+            throw new ArgumentException("Account name is required.");
+            
         var account = new Account(
             dto.UserId,
             dto.Name,
@@ -25,5 +31,10 @@ public class AccountService
         await _accountRepository.SaveChangesAsync();
 
         return account.Id;
+    }
+
+    public async Task<List<Account>> GetByUserIdAsync(Guid userId)
+    {
+        return await _accountRepository.GetByUserIdAsync(userId);
     }
 }

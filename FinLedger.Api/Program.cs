@@ -3,6 +3,7 @@ using FinLedger.Application.Services;
 using FinLedger.Infrastructure.Persistence;
 using FinLedger.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using FinLedger.Api.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +34,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseHttpsRedirection();
 

@@ -25,4 +25,12 @@ public class AccountsController : ControllerBase
             id = accountId
         });
     }
+
+    [HttpGet]
+    public async Task<IActionResult> GetByUserId(Guid userId)
+    {
+        var accounts = await _accountService.GetByUserIdAsync(userId);
+
+        return Ok(accounts);
+    }
 }
